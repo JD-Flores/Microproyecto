@@ -1,0 +1,41 @@
+#topnav {
+   width: 100%;
+
+   position: fixed;
+   top: 0;
+   left: 0;
+
+   background-color: Black;
+
+   font-family: "Lato", sans-serif;
+   font-size: 15px;
+}
+
+.nav-link {
+   display: inline-block;
+   width: 100px;
+   height: 55px;
+
+   color: White;
+
+   text-align: center;
+   line-height: 55px;
+
+   text-decoration: none;
+}
+.nav-link:hover{
+   color:rgb(207, 207, 207);
+   transition: all 0.4s ease 0s;
+}
+
+#logo {
+   width: 120px;
+   background-color: #EFA700;
+   font-weight: bold;
+}
+
+#contact {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
