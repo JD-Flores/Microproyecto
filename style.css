@@ -4,6 +4,10 @@
    box-sizing: border-box;
 }
 
+body{
+   background-color: #E3E7E9;
+}
+
 /* Todo lo referente a la barra de navegación */
 
 #navbar {
@@ -89,4 +93,70 @@
 
       cursor: pointer;
    }
+}
+
+/* * * * * * * * * * * *
+
+Experience
+
+* * * * * * * * * * * */
+
+#experience {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   row-gap: 10px;
+   column-gap: 10px;
+}
+
+.experience-box{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   row-gap: 0px;
+   column-gap: 0px;
+   padding: 10px;
+   background-color: red;
+}
+
+.experience-box-2{
+   display: flex;
+   row-gap: 10px;
+   column-gap: 10px;
+   padding: 10px;
+   max-width: 100%;
+   background-color: #EFA700;
+   justify-content: center;
+}
+
+.experience-box-content{
+   display: grid;
+   grid-template-columns: 1fr;
+   background-color: yellow;
+   padding: 10px;
+}
+
+.experience-img {
+   max-width: 200px;
+   max-height: 300px;
+}
+
+.tech-img {
+   max-height: 70px;
+}
+
+.experience-title {
+   font-family: 'Trebuchet MS';
+   color: #000000;
+}
+
+.experience-fecha {
+   padding: 10px;
+   font-family: 'century gothic';
+   color: #969696;
+}
+
+.experience-link {
+   padding: 10px;
+   font-weight: bold;
+   text-decoration: none;
+   color: #242424;
 }
