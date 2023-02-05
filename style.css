@@ -19,6 +19,8 @@
 
    font-family: "Lato", sans-serif;
    font-size: 15px;
+
+   z-index:100;
 }
 
 .nav-link {
@@ -89,4 +91,104 @@
 
       cursor: pointer;
    }
+}
+
+/* * * * *
+
+About Me
+
+* * * * */
+
+#abme {
+   display: flex;
+   justify-content: center;
+}
+
+.abme-title {
+   grid-area: title;
+   display: flex;
+   flex-direction: column;
+}
+
+.abme-title-text {
+   font-family: "Helvetica";
+   font-weight: bold;
+   font-size: 250%;
+}
+
+.abme-line {
+   min-height: 5%;
+   width: 60%;
+   background-color: #EFA700;
+}
+
+.abme-text-1 {
+   color:rgb(118, 118, 118);
+   padding:5%;
+   font-size: 100%;
+}
+
+.abme-img-container {
+   background-color: #a67c33;
+   grid-area: img;
+   max-width: 90%;
+   max-height: 100%;
+   margin: 5% 5% 5% 10%;
+}
+
+.abme-img {
+   position:relative;
+   right: 10%;
+   bottom:5%;
+   max-width: 100%;
+}
+
+.abme-text-1 {
+   grid-area: text-1;
+}
+
+.abme-objetivo-1-container {
+   padding-left:10%;
+   grid-area: objetivo-1;
+}
+
+.abme-objetivo-2-container {
+   padding-left:10%;
+   grid-area: objetivo-2;
+}
+
+.abme-objetivo-title {
+   font-size: 110%;
+}
+
+.abme-objetivo-text {
+   color:rgb(118, 118, 118);
+   font-size: 80%;
+   text-align: justify;
+   max-width: 100%;
+}
+
+.abme-gustos {
+   grid-area: gustos;
+   padding-left: 5%;
+   font-size: 80%;
+   color: #85704C;
+}
+
+.abme-container {
+   padding:20px;
+   max-width: 800px;
+   display: grid;
+   row-gap: 0px;
+   column-gap: 20px;
+   grid-template-areas: 
+      "title title img img"
+      "text-1 text-1 img img"
+      "objetivo-1 objetivo-2 img img"
+      "gustos gustos img img";
+}
+
+.classy-link {
+   text-decoration: underline #EFA700;
+   color:rgb(70, 70, 70);
 }
