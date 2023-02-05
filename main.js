@@ -1,17 +1,17 @@
 let slideIndex = 1;
-showSlides(slideIndex);
+mostrarImg(slideIndex);
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function proxImg(n) {
+  mostrarImg(slideIndex += n);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function imgActual(n) {
+  mostrarImg(slideIndex = n);
 }
 
-function showSlides(n) {
+function mostrarImg(n) {
   let i;
   let slides = document.getElementsByClassName("misFotos");
   let dots = document.getElementsByClassName("dot");
