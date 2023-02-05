@@ -170,3 +170,13 @@ Experience
    text-decoration: none;
    color: #242424;
 }
+
+@media (max-width: 842px) {
+   #experience {
+      padding: 40px 0px 0px 0px;
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 10px;
+      column-gap: 10px;
+   }
+} 
