@@ -351,7 +351,7 @@ About Me
 
 .abme-text-1 {
    grid-area: text-1;
-   font-size: 110%;
+   font-size: 130%;
 }
 
 .abme-objetivo-1-container {
@@ -365,12 +365,12 @@ About Me
 }
 
 .abme-objetivo-title {
-   font-size: 120%;
+   font-size: 150%;
 }
 
 .abme-objetivo-text {
    color:rgb(118, 118, 118);
-   font-size: 80%;
+   font-size: 100%;
    text-align: justify;
    max-width: 100%;
 }
@@ -378,13 +378,13 @@ About Me
 .abme-gustos {
    grid-area: gustos;
    padding-left: 5%;
-   font-size: 80%;
+   font-size: 110%;
    color: #85704C;
 }
 
 .abme-container {
    padding:20px;
-   max-width: 800px;
+   max-width: 1000px;
    display: grid;
    row-gap: 0px;
    column-gap: 20px;
