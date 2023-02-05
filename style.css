@@ -105,8 +105,10 @@ Carrusel de imagenes
  
  /* Caption text */
  .caption {
-   color: #f2f2f2;
-   font-size: 15px;
+   color: rgba(225,225,225,0.6);
+   font-family: "Helvetica";
+   font-weight: bold;
+   font-size: 40px;
    padding: 8px 12px;
    position: absolute;
    bottom: 8px;

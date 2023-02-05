@@ -1,12 +1,16 @@
+/* * * * * * * * * * *
+
+Carrusel de imagenes
+
+* * * * * * * * * * */
+
 let slideIndex = 1;
 mostrarImg(slideIndex);
 
-// Next/previous controls
 function proxImg(n) {
   mostrarImg(slideIndex += n);
 }
 
-// Thumbnail image controls
 function imgActual(n) {
   mostrarImg(slideIndex = n);
 }
