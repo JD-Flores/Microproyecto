@@ -399,3 +399,54 @@ About Me
    text-decoration: underline #EFA700;
    color:rgb(70, 70, 70);
 }
+#skills{
+   padding-top: 20px;
+   display: flex;
+   flex-direction: column;
+   max-width: 100%;
+   align-items: center;
+}
+
+.skills-title {
+   padding: 15px;
+}
+
+.skills-title-text {
+   font-size: 50px;
+}
+
+.skills-line-break {
+   height:3px;
+   background-color: #EFA700;
+   width: 250px;
+}
+
+.skills-yaxis {
+   color: gray;
+   font-size: 20px;
+}
+
+.skills-xaxis {
+   color: gray;
+   font-size: 20px;
+   transform: rotate(30deg);
+}
+
+.skills-xaxis-container {
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   padding: 15px;
+}
+
+.skills-bar {
+   background-color: royalblue;
+   border-radius: 15px;
+}
+
+#skills-chart {
+   padding:15px;
+   display:grid;
+   grid-template-columns: 1fr 5fr;
+   row-gap: 10px;
+   column-gap: 15px;
+}
