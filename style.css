@@ -4,6 +4,11 @@
    box-sizing: border-box;
 }
 
+.contenido {
+   display: flex;
+   justify-content: center;
+}
+
 /* * * * * * * * * * * * * * * * * * * * *
 
 Todo lo referente a la barra de navegación 
@@ -68,7 +73,8 @@ Carrusel de imagenes
 
 /* Contenedor del Carrusel */
 .contenedor-carrusel {
-   max-width: 2000px;
+   padding-top: 15px;
+   width: 100%;
    position: relative;
    margin: auto;
  }
@@ -76,6 +82,8 @@ Carrusel de imagenes
  /* Esconder las imagenes por defecto */
  .misFotos {
    display: none;
+   width: 100%;
+   height: 100%;
  }
  
  /* Flechas laterales */
@@ -93,6 +101,11 @@ Carrusel de imagenes
    border-radius: 0 5px 5px 0;
    user-select: none;
  }
+
+ .image {
+   width: 100%;
+   height: 100%;
+ }
  
  .next {
    right: 0;
@@ -105,7 +118,8 @@ Carrusel de imagenes
  
  /* Caption text */
  .caption {
-   color: rgba(225,225,225,0.6);
+   color: rgb(255, 255, 255, 0.9);
+   text-shadow: 1px 1px 3px rgb(61, 61, 61);
    font-family: "Helvetica";
    font-weight: bold;
    font-size: 40px;
