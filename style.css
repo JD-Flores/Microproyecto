@@ -5,7 +5,7 @@
 }
 
 body{
-   background-color: #e8eaeb;
+   background-color: #eff3f5;
 }
 
 /* Todo lo referente a la barra de navegación */
@@ -134,7 +134,7 @@ Experience
 .experience-line-break {
    height:3px;
    background-color: #EFA700;
-   width: 70%;
+   width: 300px;
 }
 
 .experience-box-content{
